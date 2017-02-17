@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import AppBar from 'material-ui/AppBar';
 import A from './A';
 import Img from './Img';
-import Banner from './banner.png';
+// import Banner from './banner.png';
 import HeaderLink from './HeaderLink';
 import LocaleToggle from 'containers/LocaleToggle';
 import Drawer from 'material-ui/Drawer';
@@ -60,9 +60,9 @@ class Header extends React.Component {
           titleStyle={{display:'none'}}
           style={{backgroundColor: this.props.backgroundColor, background: this.props.background}}
         >
-          <A to="/">
-            <Img src={Banner} alt="logo"/>
-          </A>
+          {/*<A to="/">*/}
+            {/*<Img src={Banner} alt="logo"/>*/}
+          {/*</A>*/}
           <LocaleToggle />
           <a href="https://angel.co/coinstruct" target="_blank">
             <StyledFontawesome

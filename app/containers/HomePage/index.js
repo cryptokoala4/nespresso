@@ -7,12 +7,10 @@ import H1 from 'components/H1';
 import H2 from 'components/H2';
 import H3 from 'components/H3';
 import messages from './messages';
-import HomeSlideshow from 'components/HomeSlideshow';
 import Container from './Container';
 import Header from 'components/Header';
 import Wrapper from './Wrapper';
 import Img from 'components/Img';
-import '!style-loader!css-loader!sass-loader!./flex.css';
 import axios from 'axios';
 
 console.clear();

@@ -1,6 +1,5 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import Banner from 'assets/images/home/banner-white.png';
 import Img from 'components/Img';
 
 import A from 'components/A';
@@ -21,14 +20,14 @@ function Footer() {
       </section>
       <section>
       </section>
-      <section style={{float:'right'}}>
-        <FormattedMessage
-          {...messages.madeIn}
-          values={{
-            author: <FooterBanner src={Banner} alt=""/>  ,
-          }}
-        />
-      </section>
+      {/*<section style={{float:'right'}}>*/}
+        {/*<FormattedMessage*/}
+          {/*{...messages.madeIn}*/}
+          {/*values={{*/}
+            {/*author: <FooterBanner src={Banner} alt=""/>  ,*/}
+          {/*}}*/}
+        {/*/>*/}
+      {/*</section>*/}
     </Wrapper>
   );
 }
