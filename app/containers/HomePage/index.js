@@ -64,7 +64,7 @@ export class HomePage extends React.PureComponent {
           {/*/>*/}
         <Container>
           <H1 style={{marginLeft: '15px'}}>
-            <FormattedMessage {...messages.coreValueTitle} />
+            Hello World
           </H1>
           <Wrapper className="wrapper">
             <Paper zDepth={1} className="block-first-1">
