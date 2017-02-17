@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Allow installing the app to the homescreen -->
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <meta name="mobile-web-app-capable" content="yes">
     <title>Nespresso Capsules</title>
   </head>
   <body>
-    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
-    <script language="javascript">
-      if (typeof(window.history.pushState) == 'function') {
-        window.history.pushState(null, "www.jackywhlee.com", window.location.hash.substring(2));
-      } else {
-        window.location.hash = window.location.hash.substring(2);
-      }
-    </script>
-    <div id="app"></div>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="container">
+      <div class="col-md-4 col-md-offset-4">
+        <div id="app"></div>
+      </div>
+    </div>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
   </body>
 </html>
