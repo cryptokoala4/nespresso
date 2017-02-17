@@ -28,14 +28,11 @@ export function App(props) {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="Coinstruct"
-        defaultTitle="Coinstruct"
-        meta={[
-          { name: 'description', content: 'A Blockchain based crowdfunding platform' },
-        ]}
+        titleTemplate="Nespresso"
+        defaultTitle="Nespresso"
       />
       {React.Children.toArray(props.children)}
-      <Footer />
+      {/*<Footer />*/}
     </AppWrapper>
   );
 }

@@ -54,14 +54,14 @@ export class HomePage extends React.PureComponent {
   render() {
     return (
       <article>
-        <Header background="linear-gradient(to bottom, #312d3b, rgba(48, 44, 59, 0)"/>
-          <HomeSlideshow className="help"/>
-          <Helmet
-            title="Coinstruct"
-            meta={[
-              { name: 'description', content: 'Coinstruct' },
-            ]}
-          />
+        {/*<Header background="linear-gradient(to bottom, #312d3b, rgba(48, 44, 59, 0)"/>*/}
+          {/*<HomeSlideshow className="help"/>*/}
+          {/*<Helmet*/}
+            {/*title="Coinstruct"*/}
+            {/*meta={[*/}
+              {/*{ name: 'description', content: 'Coinstruct' },*/}
+            {/*]}*/}
+          {/*/>*/}
         <Container>
           <H1 style={{marginLeft: '15px'}}>
             <FormattedMessage {...messages.coreValueTitle} />
